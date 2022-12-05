@@ -72,32 +72,6 @@
 
 7. in your browser navigate to `http://<SERVER IP>:443`
 
-
-#### Installation 📚 :
-
-      $ git clone https://github.com/karthi-the-hacker/poseidon.git
-      $ cd poseidon
-      $ unzip webpages.zip
-      $ npm i
-      
-#### Setup 📚 :
-
-      $ cd poseidon
-      $ nano maindb.json
-      $ change admin to your username
-
-#### Start 📚 :
-
-      $ pm2 start index.js
-   
-#### Stop 📚 :
-
-      $ pm2 stop index.js
-  
-#### kill 📚 :
-
-      $ pm2 kill
-
  
  ### Company Profile 🏢 :
 
