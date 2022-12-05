@@ -1,0 +1,677 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@200&family=Quicksand:wght@300&display=swap');
+
+@font-face {
+    font-family: hacker;
+    src: url(/font/Hacked-KerX.ttf);
+}
+
+@font-face {
+    font-family: blade;
+    src: url(/font/Blade2-oveV.ttf);
+}
+@font-face {
+    font-family: sword;
+    src: url(/font/SwordThrasher-6ZE6.ttf);
+}
+@font-face {
+    font-family: water;
+    src: url(/font/Waterlily_Script.ttf);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+body {
+    background: rgb(118, 0, 245);
+    padding: 0;
+    margin-top: 30px;
+    font-family: "Biryani", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    color: white;
+}
+
+h1 {
+    font-size: 18px;
+    margin: 0 0 7px 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 300;
+    color: grey;
+}
+
+.text-small {
+    font-size: 9px;
+    margin-bottom: -35px;
+}
+.text-small h1{
+    color: white;
+    margin-top: -10%;
+    margin-bottom: -20px;
+    font-size: 12px;
+}
+.text-small p {
+    
+    margin-top: -20px;
+    margin-bottom: -10px;
+
+}
+.text-medium {
+    font-size: 12px;
+}
+
+.text-large {
+    font-size: 16px;
+}
+
+.success {
+    color: #85ff85;
+}
+
+.server {
+    color: #ff0000;
+    background: #630c0c5b;
+}
+
+.app-container {
+    width: 95vw;
+    height: 90vh;
+    background: #111;
+    border-radius: 20px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    position: relative;
+}
+
+.flex-apart {
+    justify-content: space-between;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+}
+
+#app-nav {
+    flex: 1;
+    border-right: solid 1px #80808021;
+    overflow: overlay;
+}
+
+#app-dashboard {
+    flex: 9;
+    padding: 20px;
+}
+
+#app-sidepanel {
+    flex: 3;
+    background: #080624;
+    border-left: solid 1px #8080801f;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: overlay;
+}
+
+#app-search {
+    border: 0;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background: #7e7e7e1f;
+}
+
+.fa-search {
+    margin-left: -25px;
+    position: absolute;
+    margin-top: 8px;
+    opacity: .3;
+}
+
+.nav-item {
+    margin: 20px;
+    padding: 15px 5px;
+    color: #adadad;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background: rgb(118, 0, 245);;
+    transition: .5s;
+    color: white;
+}
+
+#logo {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 25px 0 22px 0;
+    border: 1px solid rgb(118, 0, 245);
+}
+
+#dashboard-header {
+    height: 10%;
+    min-height: 75px;
+    align-items: baseline;
+}
+
+
+.dashboard-container {
+    position: relative;
+    flex: 1;
+    height: -webkit-fill-available;
+}
+
+.dashboard-item {
+    background: black;
+    border-radius: 10px;
+    padding: 30px 20px 10px 20px;
+    margin: 10px;
+    height: calc(100% - 60px);
+}
+
+.dashboard-row {
+    flex: 1;
+}
+
+.dashboard-row-large {
+    flex: 3;
+}
+
+.dashboard-column {
+    flex: 1;
+    height: 100%;
+}
+
+.flex-row .dashboard-container:first-child .dashboard-item {
+    margin-left: 0;
+}
+
+.flex-row .dashboard-column .dashboard-container:first-child .dashboard-item {
+    margin-left: 10px;
+}
+
+.flex-row .dashboard-container:last-child .dashboard-item,
+.flex-row .dashboard-column .dashboard-item {
+    margin-right: 0;
+}
+
+.dashboard-container-large {
+    flex: 2;
+}
+
+.dashboard-row-large .dashboard-item {
+    padding-top: 10px;
+    height: calc(100% - 40px);
+}
+
+.dashboard-container .text-large {
+    margin: 10px 0 0 0;
+}
+
+.dashboard-container .text-small {
+    opacity: .4;
+    white-space: pre;
+}
+
+.dashboard-container-logo {
+    position: relative;
+}
+
+#dashboard-charts {
+    position: relative;
+    height: 90%;
+    overflow: overlay;
+}
+
+.dashboard-container-logo img {
+    width: 30px;
+    position: absolute;
+    left: calc(50% - 15px);
+    top: -40px;
+}
+
+#chart1,
+#chart2,
+#chart3 {
+    max-width: 200px;
+    height: 50px;
+}
+
+#chart1 {
+    --color: #f79319;
+}
+
+#chart2 {
+    --color: #345d9d;
+}
+
+#chart3 {
+    --color: #d9327b;
+}
+
+#chart4 {
+    width: 100%;
+    height: 75%;
+    min-height: 200px;
+}
+
+.charts-css {
+    --color-1: #f79319;
+    --color-2: #345d9d;
+    --color-3: #d9327b;
+}
+
+.chart-container {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.chart-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to left, rgb(255 0 0 / 0%), #191737);
+    z-index: 1;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.chart-header {
+    width: 100%;
+}
+
+.chart-header i {
+    margin-left: 5px;
+}
+
+.chart-header .dropdown {
+    padding: 10px;
+    border-radius: 10px;
+    background: #ffffff1f;
+    cursor: pointer;
+}
+
+.chart-legend-circle {
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: rebeccapurple;
+    border-radius: 50%;
+    margin: 30px 15px;
+}
+
+.profit-item,
+.transaction-item {
+    padding: 10px 0;
+}
+
+.profit-item i,
+.transaction-item i {
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    opacity: .5;
+}
+
+.profit-item i.success {
+    background: #1a6c1a30;
+}
+
+.profit-item i.alert {
+    background: #ff000030;
+}
+
+.flex-column .profit-item:first-child {
+    border-bottom: dashed 1px #ffffff0d;
+}
+
+.profit-item .text-small {
+    margin-top: 3px;
+    margin-right: 3px;
+    opacity: .3;
+}
+
+#transfer-now input {
+    background: #7e7e7e1f;
+    border: 0;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 5px 0;
+    width: 100%;
+    font-size: 10px;
+}
+
+#transfer-now button {
+    padding: 10px;
+    background: rgb(118, 0, 245);
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#app-sidepanel .header-icon {
+    padding: 15px;
+    background: #7e7e7e1f;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 12px;
+    margin: 0 0 20px 0;
+}
+
+#app-sidepanel img {
+    width: 100%;
+    opacity: .7;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: #7e7e7e63;
+    border-radius: 50%;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    background: rebeccapurple;
+}
+
+.transaction-item i {
+    background: #8080803d;
+}
+
+.transaction-item .text-small {
+    opacity: .3;
+}
+
+.transaction-item .flex-apart {
+    width: 100%;
+}
+
+.transaction-item .transaction-price {
+    align-items: flex-end;
+    /* justify-content: start; */
+    display: flex;
+    flex-flow: column;
+}
+
+.transaction-item .transaction-price span.text-small {
+    margin-right: 3px;
+}
+
+#upgrade-area i {
+    margin: 30px 0 10px 0;
+    font-size: 20px;
+    padding: 13px;
+    border: solid 1px #ffffff61;
+    border-radius: 50%;
+    color: #625599;
+}
+
+#upgrade-area .flex-center {
+    text-align: center;
+    opacity: .7;
+}
+
+#upgrade-area button {
+    padding: 10px;
+    background: #49464e70;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-div{
+    background: black;
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.img-txt{
+    display: flex;
+}
+.img-txt img{
+    border-radius: 50%;
+}
+.right img{
+  
+   
+   border-radius: 50%;
+   border: 2px solid rgb(118, 0, 245);
+   
+}
+
+.left{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.right h1{
+    font-family: hacker;
+    letter-spacing: 6px;
+    font-size: 3em;
+}
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.terminal-window {
+    text-align: left;
+    width: auto;
+    height: 480px;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.terminal-window header {
+    background: rgb(118, 0, 245);
+    height: 30px;
+    border-radius: 8px 8px 0 0;
+    padding-left: 10px;
+}
+
+.terminal-window header .button {
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.terminal-window header .button.green {
+    background: #3BB662;
+}
+
+.terminal-window header .button.yellow {
+    background: #E5C30F;
+}
+
+.terminal-window header .button.red {
+    background: #E75448;
+}
+
+.terminal-window section.terminal {
+    color: white;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    font-size: 11pt;
+    background: black;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    bottom: 0;
+    overflow: auto;
+}
+
+.terminal-window section.terminal .typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.terminal-data {
+    display: none;
+}
+
+.terminal-window .gray {
+    color: gray;
+}
+
+.terminal-window .green {
+    color: green;
+}

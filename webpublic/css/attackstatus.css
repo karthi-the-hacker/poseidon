@@ -1,0 +1,92 @@
+.glow-button {
+    --button-background: #111111;
+    --button-color: #fff;
+    --button-shadow: rgba(33, 4, 104, 0.2);
+    --button-shine-left: rgba(120, 0, 245, 0.5);
+    --button-shine-right: rgba(200, 148, 255, 0.65);
+    --button-glow-start: #B000E8;
+    --button-glow-end: #009FFD;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 11px;
+    position: relative;
+    line-height: 24px;
+    cursor: pointer;
+    color: var(--button-color);
+    padding: 0;
+    margin: 0;
+    background: none;
+    z-index: 1;
+    box-shadow: 0 8px 20px var(--button-shadow);
+}
+
+.glow-button .gradient {
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+    transform: scaleY(1.02) scaleX(1.005) rotate(-0.35deg);
+}
+
+.glow-button .gradient:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background: linear-gradient(90deg, var(--button-shine-left), var(--button-shine-right));
+    -webkit-animation: rotate linear 2s infinite;
+    animation: rotate linear 2s infinite;
+}
+
+.glow-button span {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    width: 332px;
+    height: 100px;
+    border-radius: inherit;
+    background-color: var(--button-background);
+    overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+
+
+.glow-button:hover {
+    background: linear-gradient(90deg, var(--button-shine-left), var(--button-shine-right));
+    --button-glow-opacity: 1;
+    --button-glow-duration: .25s;
+}
+
+.glow-button span:hover {
+    
+    transform: scaleY(1.02) scaleX(1.005) rotate(-0.35deg);
+}
+
+@-webkit-keyframes rotate {
+    to {
+        transform: scale(1.05) translateY(554px) rotate(360deg) translateZ(0);
+    }
+}
+
+@keyframes rotate {
+    to {
+        transform: scale(1.05) translateY(-1004px) rotate(360deg) translateZ(0);
+    }
+}
+
+

@@ -1,0 +1,38 @@
+{
+  "name": "poseidon",
+  "packageManager": "com.karthithehacker.poseidon",
+  "homepage": "https://karthithehacker.com/poseidon/",
+  "version": "1.0.0",
+  "description": "A cloud based tool to hack any accounts",
+  "main": "app.js",
+ "scripts": {
+    "test": "node index.js",
+    "start": "node ."
+  },
+  "keywords": [
+    "poseidon"
+  ],
+  "author": "karthithehacker <contact@karthithehacker.com>",
+  "authorWebsite": "karthithehacker.com",
+  "license": "CappricioSec",
+  "dependencies": {
+    "alert": "^5.1.2",
+    "body-parser": "^1.20.1",
+    "child_process": "^1.0.2",
+    "cookie-parser": "^1.4.6",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-flash-notification": "^0.5.0",
+    "express-session": "^1.17.3",
+    "ip": "^1.1.8",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "alert-message": "^0.1.24",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

