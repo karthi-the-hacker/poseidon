@@ -24,6 +24,33 @@
  - [Node.js](https://nodejs.org/)
 
 
+
+## Installation 
+
+1. Install NodeJS [Instructions Here](https://nodejs.org/en/download/package-manager/) (If you can't figure this out, you shouldn't really be using this)
+
+2. install PM2 
+    - `npm install pm2 -g`
+
+3. Download and Extract the latest release from [HERE](https://github.com/karthi-the-hacker/poseidon.git)
+
+4. In the extracted folder, run these commands
+    - `npm install` <- install dependencies
+    - `pm2 start index.js` <-- start the script
+    - `pm2 startup` <- to run 🔱poseidon🔱 on startup
+
+6. Set a Username 
+    1. Stop 🔱poseidon🔱 `pm2 stop index`
+    2. Open `maindb.json` in a text editor
+    3. under `admin` 
+        - set the `username` as plain text
+        
+    4. save the file
+    5. run `pm2 restart all`
+
+7. in your browser navigate to `http://<SERVER IP>:443`
+
+
 #### Installation 📚 :
 
       $ git clone https://github.com/karthi-the-hacker/poseidon.git
