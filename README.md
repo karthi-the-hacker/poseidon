@@ -1,5 +1,3 @@
-# poseidon
-
 <h1 align="center">
   <br>
   <a href="https://karthithehacker.com/poseidon/"><img src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/poseidon.png" width="400px" alt="Poseidon"></a>
