@@ -16,7 +16,12 @@ const FileSync = require('lowdb/adapters/FileSync'),
 
 
 
-var date_time = new Date();
+var currentTime = new Date();
+var currentOffset = currentTime.getTimezoneOffset();
+var ISTOffset = 330;
+var date_time = new Date(currentTime.getTime() + (ISTOffset + currentOffset)*60000);
+var hoursIST = date_time.getHours()
+var minutesIST = date_time.getMinutes()
 
 routes.get('/',(req,res)=>{
     
