@@ -1,0 +1,250 @@
+
+client {
+    display: none;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.clientName,
+.date {
+    font-size: 14px;
+}
+
+.left {
+    color: white;
+    font-size: 32px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.brand-sec {
+    margin-right: 8px;
+}
+
+.product {
+    color: #20FF8B;
+    font-size: 38px;
+    height: 40;
+}
+
+.product::after {
+    color: white;
+    content: "Intellect";
+}
+
+.brand {
+    color: #D1D1D1;
+    font-size: 12px;
+    text-align: center;
+}
+
+.brand::after {
+    color: #20FF8B;
+    content: "Cappriciosec";
+}
+
+
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 50px;
+}
+thead {
+    border-radius: 50px;
+}
+.tbl-header {
+    border-radius: 50px;
+
+
+}
+
+.tbl-content {
+    height: auto;
+    overflow-x: auto;
+    margin-top: 0px;
+
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+th {
+    padding: 20px 15px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 19px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-family: 'Biryani', sans-serif;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border-bottom: solid 1px rgb(0, 0, 0);
+}
+
+th {
+    background-color: rgb(118, 0, 245);
+    color: white;
+    
+}
+
+tr {
+    background-color: #fff;
+    color: black;
+    height: 40px;
+    border: 10px solid #cdcdcd;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    
+    border-radius: 50px;
+}
+
+
+.brand-sec {
+    margin-right: 8px;
+}
+
+.middle {
+
+    position: sticky;
+    width: 100%;
+    text-align: center;
+
+    bottom: 0%;
+}
+
+.btn {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    bottom: 50%;
+    background: rgb(118, 0, 245);
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px rgb(118, 0, 245);
+    color: #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn i {
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+
+.btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #000000;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.btn:hover::before {
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+
+@keyframes aaa {
+    0% {
+        left: -110%;
+        top: 90%;
+    }
+
+    50% {
+        left: 10%;
+        top: -30%;
+    }
+
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
+
+.product {
+    color: #20FF8B;
+    font-size: 38px;
+    height: 52;
+}
+
+.product::after {
+    color: white;
+    content: "Intellect";
+}
+
+.brand {
+    color: #D1D1D1;
+    font-size: 12px;
+    text-align: center;
+}
+
+.brand::after {
+    color: #20FF8B;
+    content: "Cappriciosec";
+}
+
+section {
+    background: black;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+.fotter {
+    margin-top: 40px;
+    padding: 10px;
+    clear: left;
+    text-align: center;
+    font-size: 20px;
+    font-family: arial;
+    color: #fff;
+}
+
+.fotter i {
+    font-style: normal;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.fotter a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fotter a:hover {
+    text-decoration: underline;
+}
