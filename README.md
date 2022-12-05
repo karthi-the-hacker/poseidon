@@ -1,11 +1,11 @@
 # poseidon
-A cloud based tool for Social engineering attacks and Security audit
+
 <h1 align="center">
   <br>
   <a href="https://karthithehacker.com/poseidon/"><img src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/poseidon.png" width="400px" alt="Poseidon"></a>
 </h1>
 
-<h2 align="center">A Single tool to do Social Engineering Attacks</h2>
+<h2 align="center">A cloud based tool for Social engineering attacks and Security audit</h2>
 
 <h1 align="center"><a href="https://karthithehacker.com/poseidon/"><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/l.gif" ></a></h1>
 
@@ -13,6 +13,27 @@ A cloud based tool for Social engineering attacks and Security audit
 
  - [PHP](https://php.net/) 
  - [Node.js](https://nodejs.org/)
+
+
+#### Installation 📚 :
+
+      $ git clone https://github.com/karthi-the-hacker/poseidon.git
+      $ cd poseidon
+      $ unzip webpages.zip
+      $ npm i
+
+#### Start 📚 :
+
+      $ pm2 start index.js
+   
+#### Stop 📚 :
+
+      $ pm2 stop index.js
+  
+#### kill 📚 :
+
+      $ pm2 kill
+
  
  ### Company Profile 🏢 :
 
