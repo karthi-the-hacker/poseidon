@@ -1,2 +1,30 @@
 # poseidon
 A cloud based tool for Social engineering attacks and Security audit
+<h1 align="center">
+  <br>
+  <a href="https://karthithehacker.com/gh0str3c0n/"><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/back-end/ico.png" width="400px" alt="Gh0stR3c0n"></a>
+</h1>
+
+<h2 align="center">A Single tool to do Social Engineering Attacks</h2>
+
+<h1 align="center"><a href="https://karthithehacker.com/gh0str3c0n/"><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/l.gif" ></a></h1>
+
+## Requirements:
+
+ - [PHP](https://php.net/) 
+ - [Node.js](https://nodejs.org/)
+ 
+ ### Company Profile 🏢 :
+
+<a href="https://university.cappriciosec.com/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/1.png"  width="200px" ></a>
+<a href="https://www.cappriciosec.com/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/2.png" width="200px" ></a>
+<a href="https://www.instagram.com/cappriciosec/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/6.png" width="200px" ></a>
+
+
+### Contact info 📱 :
+
+<a href="https://karthithehacker.com/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/3.png"  width="200px" ></a>
+<a href="https://www.youtube.com/karthithehacker" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/y.png" width="200px" ></a>
+<a href="https://www.instagram.com/karthithehacker/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/5.png" width="200px" ></a>
+<a href="https://www.linkedin.com/in/cyberspartan/" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/7.png" width="200px" ></a>
+<a href="https://api.whatsapp.com/send/?phone=+918270913635&text=Hi" ><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/screenshots/banner/8.png" width="200px" ></a>
