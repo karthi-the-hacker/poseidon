@@ -7,7 +7,18 @@
 
 <h2 align="center">A cloud based tool for Social engineering attacks and Security audit</h2>
 
-<h1 align="center"><a href="https://karthithehacker.com/poseidon/"><img src="https://github.com/karthi-the-hacker/Gh0stR3c0n/raw/main/l.gif" ></a></h1>
+### Screen Shots 📸 :
+<h1 align="center">
+  <h2 align="center">Screen Shot 1</h2>
+  <h1 align="center"><img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/screenshots/1.png" width="700px" alt="Gh0stR3c0n"></h1>
+  <h2 align="center">Screen Shot 2</h2>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/screenshots/2.png" width="700px" alt="Gh0stR3c0n"></h1>
+  <h2 align="center">Screen Shot 3</h2>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/screenshots/3.png" width="700px" alt="Gh0stR3c0n"></h1>
+  <h2 align="center">Screen Shot 4</h2>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/screenshots/4.png" width="700px" alt="Gh0stR3c0n"></h1>
+ 
+</h1>
 
 ## Requirements:
 
