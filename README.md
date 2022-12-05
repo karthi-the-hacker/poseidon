@@ -8,15 +8,37 @@
 ### Screen Shots 📸 :
 <h1 align="center">
   <h2 align="center">Dashboard</h2>
-  <h1 align="center"><img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/1.png" width="700px" alt="Gh0stR3c0n"></h1>
+  <h1 align="center"><img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/1.png" width="700px" alt="poseidon"></h1>
   <h2 align="center">Attack menu</h2>
- <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/2.png" width="700px" alt="Gh0stR3c0n"></h1>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/2.png" width="700px" alt="poseidon"></h1>
   <h2 align="center">Attack menu</h2>
- <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/3.png" width="700px" alt="Gh0stR3c0n"></h1>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/3.png" width="700px" alt="poseidon"></h1>
   <h2 align="center">Pwned data</h2>
- <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/4.png" width="700px" alt="Gh0stR3c0n"></h1>
+ <h1 align="center"> <img align="center" src="https://github.com/karthi-the-hacker/poseidon/raw/main/webpublic/images/screenshots/4.png" width="700px" alt="poseidon"></h1>
  
 </h1>
+
+## Templates 
+- Facebook
+- Instagram
+- Google
+- Linkedin
+- Adobe
+- Paypal
+- Badoo
+- Netflix
+- Pinterest
+- Playstation
+- Pornhub
+- ProtonMail
+- Teitch
+- Twitter
+- Wordpress
+- Yahoo
+- Gitlab
+- Github
+
+
 
 ## Requirements:
 
