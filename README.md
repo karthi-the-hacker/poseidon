@@ -62,7 +62,7 @@
     - `pm2 startup` <- to run  🔱poseidon🔱  on startup
 
 6. Set a Username 
-    1. Stop  🔱poseidon🔱  `pm2 stop index`
+    1. Stop  🔱poseidon🔱  `pm2 stop index.js`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
         - set the `username` as plain text
