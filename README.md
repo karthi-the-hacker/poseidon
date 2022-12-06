@@ -31,7 +31,7 @@
 - Playstation
 - Pornhub
 - ProtonMail
-- Teitch
+- Twitch
 - Twitter
 - Wordpress
 - Yahoo
