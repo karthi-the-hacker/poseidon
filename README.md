@@ -71,7 +71,7 @@
     5. run `pm2 restart all`
     
 7. unzip webpage.zip
-    - `unzip webpage.zip` <- unzip 
+    - `unzip webpages.zip` <- unzip 
     
 8. in your browser navigate to `http://<SERVER IP>:443`
 
