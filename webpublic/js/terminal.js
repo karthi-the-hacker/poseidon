@@ -4,6 +4,7 @@ $(function() {
     action: 'type',
     strings: ["sudo root^1000"],
     
+    
     output: '<span class="gray">Password: </span><br>&nbsp;',
     postDelay: 1000
   },
@@ -51,6 +52,7 @@ function runScripts(data, pos) {
                 history.push(script.output);
                 prompt.html('');
                 $('.history').html(history.join('<br>'));
+                
               }
               // scroll to bottom of screen
               $('section.terminal').scrollTop($('section.terminal').height());
